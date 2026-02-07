@@ -41,7 +41,9 @@ npm run dev
 │   ├── index.css        # Global styles
 │   └── main.tsx         # Application entry point
 ├── index.html           # HTML entry point
-├── tsconfig.json        # TypeScript configuration
+├── tsconfig.json        # TypeScript project references
+├── tsconfig.app.json    # TypeScript config for the app (strict, ES2023)
+├── tsconfig.node.json   # TypeScript config for Node/tooling
 ├── vite.config.ts       # Vite configuration
 ├── eslint.config.js     # ESLint configuration
 └── package.json
