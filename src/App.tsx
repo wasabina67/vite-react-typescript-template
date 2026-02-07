@@ -1,8 +1,16 @@
+import './App.css'
+
 function App() {
   return (
-    <>
-      <section>hello, world.</section>
-    </>
+    <div className="container">
+      <h1 className="title">Vite + React + TypeScript</h1>
+      <p className="description">Minimal template to get started.</p>
+      <div className="features">
+        <span className="badge">Vite</span>
+        <span className="badge">React 19</span>
+        <span className="badge">TypeScript</span>
+      </div>
+    </div>
   )
 }
 
