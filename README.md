@@ -33,6 +33,7 @@ npm run dev
 ## Project Structure
 
 ```
+├── docs/                # Build output (GitHub Pages)
 ├── public/              # Static assets
 ├── src/
 │   ├── assets/          # Asset files
